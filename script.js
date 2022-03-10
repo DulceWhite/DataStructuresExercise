@@ -4,6 +4,10 @@ const jedi = [];
 
 //1b
 jedi.splice(0, 0, `Luke`);
+/*
+or
+jedi[0] = `Luke`;
+*/
 
 //1c
 jedi.push(`Obi-Wan Kenobi`);
@@ -93,7 +97,7 @@ const starWarsMovies = [
 ];
 
 //6b
-starWarsMovies.splice(1, 0, `Rouge One`), starWarsMovies.splice(1, 0, `Solo`);
+starWarsMovies.splice(1, 0, `Rouge One`, `Solo`);
 console.log(starWarsMovies);
 /*
 [
